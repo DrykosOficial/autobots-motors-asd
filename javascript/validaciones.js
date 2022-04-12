@@ -17,3 +17,18 @@
             }, false)
         })
 })()
+
+/*VALIDACION FORMULARIO */
+function sumarDosNumeros() {
+    var nombre = document.getElementById("name").value
+    var telefono = document.getElementById("telefono").value
+    var email = document.getElementById("email").value
+    var mensaje = document.getElementById("mensaje").value
+        //alert(total); 
+
+    if (nombre.length == 0) {
+        //alert("Debe Ingresar Nombre");
+        document.getElementById("errorName").innerHTML = "El nombre no debe ser vacío";
+    }
+    document.getElementById("resultado").innerHTML = total;
+}
