@@ -335,11 +335,17 @@ footer {
 
 /*Formulario contacto*/
 
+.fondocontacto {
+    background: url(imagenes/formulariocontacto.png) no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
 .fcontactos {
     width: 30%;
     height: 100%;
     background: #3a3b83e6;
-    margin: 0% 33%;
+    margin: 10% 33%;
     padding: 4%;
     border-radius: 2px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
@@ -358,38 +364,12 @@ textarea {
     font-size: 20px;
     font-weight: 300;
     margin-right: 5%;
-    margin-top: 25px;
     border: 1px solid #eceff1;
     padding: 12px;
     position: relative;
     box-sizing: border-box;
     border: 1px solid #d9d9d9;
     border-top: 1px solid #c0c0c0;
-}
-
-[type="submit"] {
-    border: 1px solid #2f5bb7;
-    color: rgb(179, 9, 9);
-    padding: 10px;
-    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-    background-color: #ffc107;
-    width: 415px;
-    margin-top: 12px;
-    font-weight: 500;
-}
-
-[type="submit"]:hover {
-    border-color: #c6c6c6;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    -o-transition: all 0.2s;
-    -moz-transition: all 0.3s;
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
-    background-color: #fcc900;
-    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .lable {

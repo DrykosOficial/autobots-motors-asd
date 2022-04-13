@@ -30,5 +30,17 @@ function sumarDosNumeros() {
         //alert("Debe Ingresar Nombre");
         document.getElementById("errorName").innerHTML = "El nombre no debe ser vacío";
     }
+    if (telefono.length == 0) {
+        //alert("Debe Ingresar telefono");
+        document.getElementById("errorTelefono").innerHTML = "El telefono no debe ser vacío";
+    }
+    if (email.length == 0) {
+        //alert("Debe Ingresar email");
+        document.getElementById("errorEmail").innerHTML = "El email no debe ser vacío";
+    }
+    if (mensaje.length == 0) {
+        //alert("Debe Ingresar mensaje");
+        document.getElementById("errorName").innerHTML = "El mensaje no debe ser vacío";
+    }
     document.getElementById("resultado").innerHTML = total;
 }
