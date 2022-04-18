@@ -336,9 +336,15 @@ footer {
 /*Formulario contacto*/
 
 .fondocontacto {
-    background: url(imagenes/formulariocontacto.png) no-repeat;
     width: 100%;
     height: 100%;
+    width: 100%;
+    height: auto;
+    padding: 110px 0px;
+    background-image: url("imagenes/formulariocontacto.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
 }
 
 .fcontactos {
@@ -353,7 +359,7 @@ footer {
     margin-top: 5em;
     color: #ffcb69;
     border-color: #f4a261;
-    box-shadow: 0 12px 15px 0 #f4a261, 0 17px 50px 0 #f4a261;
+    box-shadow: 8px 12px 15px 8px #f4a261, 8px 50px 50px 8px #f4a261;
 }
 
 .fcontactos input,
@@ -374,6 +380,10 @@ textarea {
 
 .lable {
     margin-left: -180px;
+}
+
+.colorerror {
+    color: red;
 }
 
 
@@ -469,6 +479,10 @@ textarea {
     background-size: cover;
 }
 
+.fondonaranja {
+    background-color: #fefae0;
+}
+
 a {
     transition: 0.25s all;
 }
@@ -487,6 +501,11 @@ a {
 .card-inverse .card-img-overlay {
     background-color: #f4a261;
     border-color: #ffcb69;
+}
+
+.autocrack {
+    width: 100%;
+    height: 100%;
 }
 
 

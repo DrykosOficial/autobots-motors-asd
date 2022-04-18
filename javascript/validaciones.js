@@ -1,4 +1,4 @@
-/*VALIDACION REGISTRO */
+/*VALIDACION REGISTRO CON JAVASCRIPT */
 (function() {
     'use strict'
 
@@ -18,13 +18,13 @@
         })
 })()
 
-/*VALIDACION FORMULARIO */
+/*VALIDACION FORMULARIO CON JQUERY */
 function sumarDosNumeros() {
     var nombre = document.getElementById("name").value
     var telefono = document.getElementById("telefono").value
     var email = document.getElementById("email").value
-    var mensaje = document.getElementById("mensaje").value
-        //alert(total); 
+
+    //alert(total); 
 
     if (nombre.length == 0) {
         //alert("Debe Ingresar Nombre");
@@ -38,9 +38,6 @@ function sumarDosNumeros() {
         //alert("Debe Ingresar email");
         document.getElementById("errorEmail").innerHTML = "El email no debe ser vacío";
     }
-    if (mensaje.length == 0) {
-        //alert("Debe Ingresar mensaje");
-        document.getElementById("errorName").innerHTML = "El mensaje no debe ser vacío";
-    }
+
     document.getElementById("resultado").innerHTML = total;
 }
