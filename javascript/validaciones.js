@@ -33,15 +33,15 @@ if (document.body.classList.contains('inisiosecion')) {
         }
 
         if (contrasennaValue === '') {
-            setErrorFor(contrasenna, 'No debe dejar en blanco la contrasena');
+            setErrorFor(contrasenna, 'No debe dejar en blanco la contraseña');
         } else {
             setSuccessFor(contrasenna);
         }
 
         if (contrasenna2Value === '') {
-            setErrorFor(contrasenna2, 'No debe dejar en blanco la contrasena');
+            setErrorFor(contrasenna2, 'No debe dejar en blanco la contraseña');
         } else if (contrasennaValue !== contrasenna2Value) {
-            setErrorFor(contrasenna2, 'Las contrasenas no coinciden');
+            setErrorFor(contrasenna2, 'Las contraseñas no coinciden');
         } else {
             setSuccessFor(contrasenna2);
         }
@@ -69,11 +69,12 @@ if (document.body.classList.contains('inisiosecion')) {
 
 
 
-/*FORMULARIO DE CONTACTO CON JS 1 */
+/*FORMULARIO DE CONTACTO CON JS  */
 if (document.body.classList.contains('formulariocontacto')) {
     var usuario = document.getElementById('user1');
     var telefono = document.getElementById('telefono');
     var correo = document.getElementById('correo');
+    var mensaje = document.getElementById('mensaje');
 
     form.addEventListener('submit', e => {
         e.preventDefault();
@@ -139,7 +140,7 @@ if (document.body.classList.contains('formulariocontacto')) {
 
 
 
-/*FORMULARIO INICIO SESION CON JQ */
+/*FORMULARIO INICIO SESIÓN CON JQ */
 
 
 $(document).ready(function() {
