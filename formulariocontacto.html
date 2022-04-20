@@ -16,7 +16,7 @@
     <link href="https://fontastic.s3.amazonaws.com/qXDGBpBG6AawYwtmYPpQBb/icons.css" rel="stylesheet">
 </head>
 
-<body class="bodyformcontacto">
+<body class="bodyformcontacto  formulariocontacto">
     <header>
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand col-4" href="#">
@@ -40,38 +40,41 @@
         <div class="fcontactos">
             <h1>Contactanos</h1>
             <p>Manda un formulario y te contactaremos a la brevedad!</p>
-            <div class="form-group">
-                <h3>Nombre</h3>
-                <input name="nombre" type="text" class="form-control" id="name" /><br/>
-                <section class="colorerror">
-                    <span id="errorName"></span></section>
-                <br>
-            </div>
-            <div class="form-group">
-                <h3>Telefono</h3>
-                <input name="telefono" type="text" class="form-control" id="telefono" /><br/>
-                <section class="colorerror">
-                    <span id="errorTelefono"></span></section>
-                <br>
-            </div>
-            <div class="form-group">
-                <h3>Correo Electronico</h3>
-                <input name="email" type="email" id="email" /><br/>
-                <section class="colorerror">
-                    <span id="errorEmail"></span></section>
-                <br>
-            </div>
-            <div class="form-group">
-                <h3>Mensaje</h3>
-                <textarea class="field" name="text" id="mensaje"></textarea><br/>
-                <section class="colorerror">
-                    <span id="errorText"></span></section>
-                <br>
-            </div>
-            <div class="hr"></div>
-            <div class="text-center ">
-                <button type=" submit " class="btn btn-warning btn-lg font-weight-bold " onclick="JSENVIAR() ">Enviar</button>
-            </div>
+            <form action="" id="form">
+                <div class="form-groupoo">
+                    <label for="user1" class="label">Nombre</label>
+                    <input id="user1" type="text" class="form-control" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Mensaje</small>
+
+                </div>
+                <div class="form-groupoo">
+                    <label for="telefono" class="label">Telefono</label>
+                    <input id="telefono" type="text" class="form-control" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Mensaje</small>
+                </div>
+                <div class="form-groupoo">
+                    <label for="correo" class="label">Correo Electrónico</label>
+                    <input id="correo" type="text" class="form-control" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Mensaje</small>
+                </div>
+                <div class="form-groupoo">
+                    <h3>Mensaje</h3>
+                    <textarea class="field" name="text" id="mensaje"></textarea><br/>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Mensaje</small>
+                </div>
+                <div class="hr"></div>
+                <div class="text-center ">
+                    <button type="submit" class="btn btn-warning btn-lg font-weight-bold ">Enviar</button>
+                </div>
+            </form>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js " integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
