@@ -1,0 +1,83 @@
+{
+    "marcas": [{
+            "id": 1,
+            "nombre": "Audi",
+            "modelos": [
+                "A5",
+                "A3",
+                "A4"
+
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "BMW",
+            "modelos": [
+                "Serie 6",
+                "Serie 7",
+                "Z4"
+
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "Chevrolet",
+            "modelos": [
+                "Alto",
+                "Astra",
+                "Bel Air"
+
+            ]
+        },
+        {
+            "id": 4,
+            "nombre": "Citroen",
+            "modelos": [
+                "Xsara",
+                "Picasso",
+                "C3"
+
+            ]
+        },
+        {
+            "id": 5,
+            "nombre": "Daihatsu",
+            "modelos": [
+                "Charade",
+                "Charmant",
+                "Sirion"
+
+            ]
+        },
+        {
+            "id": 6,
+            "nombre": "Dodge",
+            "modelos": [
+                "Coronet",
+                "Dart",
+                "Demon"
+
+            ]
+        },
+        {
+            "id": 7,
+            "nombre": "Fiat",
+            "modelos": [
+                "Zastava",
+                "Idea",
+                "124"
+
+            ]
+        },
+        {
+            "id": 8,
+            "nombre": "Ford",
+            "modelos": [
+                "Fusion",
+                "Crown",
+                "Victoria"
+
+            ]
+        }
+    ]
+}

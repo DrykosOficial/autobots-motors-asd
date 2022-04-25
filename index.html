@@ -108,15 +108,23 @@
             <h3>Suscripci&oacute;n</h3>
 
             <p>El cliente puede optar por una suscripci&oacute;n que ofrece nuestra empresa, una mantenci&oacute;n para su vehiculo, pagando al mes el precio de la subcripci&oacute;n elegida seg&uacute;n su categoria</p>
+            <p>Tambi&eacute;n si usted cuenta con un vehiculo de la siguiente lista, tendr&aacute; un descuento mayor! </p>
             <p>La categoria de las suscripciones son la siguientes:</p>
             <ul>
                 <li>Suscripci&oacute;n Optimus Prime</li>
                 <li>Suscripci&oacute;n Iron Hide</li>
                 <li>Subcripci&oacute;n Ratchet</li>
             </ul>
-            <div class="butondetalle text-center">
-                <button class="btn btn-warning btn-lg font-weight-bold"><a href="detalles.html" target="_self" class="#">M&Aacute;S INFORMACI&Oacute;N!</a> </button>
+        </div>
+        <div class="apimarcas">
+            <div class="text-center">
+                <button type="button" class="btn btn-warning btn-lg font-weight-bold " id="JVER">Ver marcas con descuentos!</button>
             </div>
+            <table class="table" id="marcas" style="display:none">
+                <tr>
+                    <td id="marcas">MARCAS DE AUTOS CON DESCUENTO:</td>
+                </tr>
+            </table>
         </div>
     </section>
 
@@ -135,17 +143,14 @@
                 <li>Frenos $7.990 </li>
                 <li>Scanner $15.990</li>
             </ul>
+            <button class="btn btn-warning btn-lg font-weight-bold"><a href="detalles.html" target="_self" class="#">M&Aacute;S INFORMACI&Oacute;N!</a> </button>
         </div>
         <div class=" servImg">
             <img src="https://c.tenor.com/O-LlZ883WVgAAAAd/transformers-bumblebee.gif" alt="fototaller2">
         </div>
 
     </section>
-    <!-- 
-    <div class="text-center">
-        <button class="btn btn-warning  btn-lg font-weight-bold"><a href="formulariocontacto.html" target="_self" class="#">AGENDE HORA AQUI</a></button>
-    </div>
-     -->
+
     <br>
     <footer class="pie-footer">
         <div class="grupo1 container">
@@ -162,26 +167,27 @@
                 <h3>CONTACTOS</h3>
                 <ul>
                     <li>
-                        <i><a href="#" class="fa-brands fa-instagram-square px-2"></a>AutoBotsCL</i>
+                        <i><a href="#" class="fa-brands fa-instagram"></a>  AutoBotsCL</i>
 
                     </li>
                     <li>
-                        <i><a href="#" class="fa-brands fa-whatsapp-square px-2"></a>+569 5417 0539</i>
+                        <i>  <a href="https://api.whatsapp.com/send?phone=+56954170539" class="fa-brands fa-whatsapp"  target="_blank"></a>   Whatsapp<i></i>
                     </li>
                     <li>
-                        <i class="fa-solid fa-square-list"><a href="formulariocontacto.html">Cont&aacute;ctanos AC&Aacute;</a></i>
+                        <i class="#"><a href="formulariocontacto.html">Cont&aacute;ctanos AC&Aacute;</a></i>
 
                     </li>
 
                 </ul>
+
             </div>
         </div>
         <p class="text-center py-2"><small>&copy; AutoBots Motors </small></p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-
+    <script src="javascript/validaciones.js"></script>
 </body>
 
 </html>

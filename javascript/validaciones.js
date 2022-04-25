@@ -166,4 +166,18 @@ $(document).ready(function() {
         }
 
     });
+
+
+
+});
+
+$.get("models.json", function(data) {
+    $.each(data.marcas, (function(i, marca) {
+        $("#marcas").append("<tr><td>" + marca.nombre);
+
+    }));
+});
+
+$("#JVER").on("click", function() {
+    $("#marcas").toggle();
 });
